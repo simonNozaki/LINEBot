@@ -11,7 +11,7 @@ function doPost(e) {
 }
 
 function lineReply(e) {
-  var ss = SpreadsheetApp.openById('1xRcmB4iNtXptCan_SCrp44jEe16CYM2YdEtXJV5o3QE');
+  var ss = SpreadsheetApp.openById('sheet_id');
   /** 最終行の行番号を取得します */
   var lowNum = ss.getSheets()[0].getLastRow();
   /** 検索範囲から値の配列を取得します */
